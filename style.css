@@ -1,31 +1,62 @@
 
-header {
-    background-color: #1F2937;
-    font-family: "roboto";
+/* Code pertaining to header */
+
+body{
+    padding: 0px;
+    margin: 0px; 
 }
 
-footer {
+header {
     background-color: #1F2937;
+    /* font-family: "roboto"; */
 }
 
 .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    margin-left: 10px;
+    padding-left: 200px; 
+    padding-right: 50px;
+}
 
+.headcontent {
+    display: flex;
+    margin-left: 10px;
+    padding-left: 200px;
+    padding-right: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    justify-content: space-between;
+} 
+
+.container1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
 .logotext {
-color: #f9faf8;
-font-size: 24px;
+    color: #f9faf8;
+    font-size: 24px;
 }
 
 .linksubtext {
-color: #e5e7eb;
-font-size: 18px;
+    color: #e5e7eb;
+    font-size: 18px;
+    max-width: 400px;
+    padding: 0px;
+    padding-bottom: 15px;
+    margin: 0px;
 }
 
 .herotext {
-color: #f9faf8;
-font-size: 48px;
-font-weight: bolder;
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bolder;
+    padding: 0px;
+    margin: 0px;
+    max-width: 400px;
 }
 
 button {
@@ -35,9 +66,28 @@ button {
     color: #e5e7eb; 
     font-size: 16px;
     font-weight: bold; 
+    max-width: 150px;
 }
 
 img {
-background: slategray; 
-padding: 100px 150px; 
+    background: slategray; 
+    padding: 110px 170px; 
+}
+
+ul { 
+    list-style: none;
+    display: flex;
+    gap: 10px; 
+}
+
+a { 
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+
+
+/* Code pertaining to footer */
+footer {
+    background-color: #1F2937;
 }
