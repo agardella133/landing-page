@@ -1,0 +1,43 @@
+
+header {
+    background-color: #1F2937;
+    font-family: "roboto";
+}
+
+footer {
+    background-color: #1F2937;
+}
+
+.navbar {
+
+}
+
+.logotext {
+color: #f9faf8;
+font-size: 24px;
+}
+
+.linksubtext {
+color: #e5e7eb;
+font-size: 18px;
+}
+
+.herotext {
+color: #f9faf8;
+font-size: 48px;
+font-weight: bolder;
+}
+
+button {
+    background-color: #3882f6;
+    padding: 10px 30px;
+    border-radius: 15px;
+    color: #e5e7eb; 
+    font-size: 16px;
+    font-weight: bold; 
+}
+
+img {
+background: slategray; 
+padding: 100px 150px; 
+}
