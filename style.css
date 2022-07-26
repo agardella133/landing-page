@@ -97,7 +97,8 @@ a {
 
 .title {
     text-align: center;
-    font-size: 24px;
+    font-size: 28px;
+    color: #1F2937
     font-weight: bold;
     padding: 20px;
     margin-top: 10px; 
@@ -108,7 +109,7 @@ a {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 52px; 
+    gap: 35px; 
     /* max-width: 1000px;  */
     padding: 10px;
 }
@@ -131,6 +132,33 @@ a {
 .text {
     max-width: 140px; 
     text-align: center;
+}
+
+/* Start block 2 code */
+
+.block2 {
+    background: #e5e7eb;
+}
+
+#quote {
+    font-size: 36px;
+    color: #1f2937;
+    text-align: center;
+    padding: 100px;
+    padding-right: 200px;
+    padding-left: 200px; 
+    margin: 50px;
+    margin-bottom: 0px;
+    padding-bottom: 0px; 
+}
+
+#thor {
+    font-size: 16px;
+        color: #1f2937;
+        text-align: right;
+        padding: 100px;
+        margin-top: 0px;
+        padding-top: 0px;
 }
 
 /* Code pertaining to footer */
