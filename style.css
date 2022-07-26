@@ -9,6 +9,7 @@ body{
     flex-direction: column;
 }
 
+/* To hold all page content except for footer; makes footer sticky */
 .content {
     flex: 1; 
 }
@@ -92,7 +93,45 @@ a {
     color: #e5e7eb;
 }
 
+/* Start main code for first block */
 
+.title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 20px;
+    margin-top: 10px; 
+}
+
+.block1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 52px; 
+    /* max-width: 1000px;  */
+    padding: 10px;
+}
+
+.squares {
+    max-width: 200px; 
+}
+
+.square {
+    background: white; 
+    font-weight: bold; 
+    border-radius: 15px; 
+    width: 120px;
+    height: 120px;
+    border: 5px solid #3882F6; 
+    margin: 10px;
+    padding: 0px; 
+}
+
+.text {
+    max-width: 140px; 
+    text-align: center;
+}
 
 /* Code pertaining to footer */
 footer {
