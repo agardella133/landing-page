@@ -5,6 +5,7 @@
 body{
     font-family: 'Roboto', sans-serif;
     padding: 0px;
+    letter-spacing: 1px;
     margin: 0px; 
     min-height: 100vh;
     display: flex;
@@ -26,15 +27,15 @@ header {
     justify-content: space-between;
     align-items: center; 
     margin-left: 10px;
-    padding-left: 200px; 
-    padding-right: 50px;
+    padding-left: 150px; 
+    padding-right: 100px;
 }
 
 .headcontent {
     display: flex;
     margin-left: 10px;
-    padding-left: 200px;
-    padding-right: 50px;
+    padding-left: 150px;
+    padding-right: 100px;
     padding-top: 100px;
     padding-bottom: 100px;
     justify-content: space-between;
@@ -53,7 +54,8 @@ header {
 
 .linksubtext {
     color: #e5e7eb;
-    font-size: 18px;
+    font-size: 16px;
+    font-weight: lighter;
     max-width: 400px;
     padding: 0px;
     padding-bottom: 15px;
@@ -73,6 +75,7 @@ button {
     background-color: #3882f6;
     padding: 10px 30px;
     border-radius: 15px;
+    border: none;
     color: #e5e7eb; 
     font-size: 16px;
     font-weight: bold; 
@@ -80,8 +83,8 @@ button {
 }
 
 img {
-    background: slategray; 
-    padding: 110px 170px; 
+    background: #6d747d; 
+    padding: 110px 130px;
 }
 
 ul { 
@@ -100,8 +103,8 @@ a {
 .title {
     text-align: center;
     font-size: 28px;
-    color: #1F2937
-    font-weight: bolder; 
+    color: #1F2937;
+    font-weight: bolder;
     padding: 20px;
     margin-top: 10px; 
 }
@@ -166,6 +169,41 @@ a {
     padding-right: 250px;
 }
 
+/* Third section of website */
+.block3 {
+    background: #white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px; 
+    padding: 100px; 
+}
+
+.modal {
+    background: #3882f6;
+    border-radius: 10px;
+    width: 900px;
+    height: 130px; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.text1 {
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.text2 {
+    color: lightgray;
+    font-size: 16px; 
+    font-weight: light; 
+}
+
+#butt {
+    border: 1px solid white;
+}
 /* Code pertaining to footer */
 footer {
     background-color: #1F2937;
