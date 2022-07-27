@@ -171,7 +171,7 @@ a {
 
 /* Third section of website */
 .block3 {
-    background: #white;
+    background: white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -203,7 +203,9 @@ a {
 
 #butt {
     border: 1px solid white;
+    color: #e5e7eb;
 }
+
 /* Code pertaining to footer */
 footer {
     background-color: #1F2937;
